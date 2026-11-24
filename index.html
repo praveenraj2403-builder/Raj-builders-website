@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="RAJ BUILDERS, Puducherry — residential and commercial construction, architectural planning, renovation and interior works. Building dreams, delivering quality.">
+<meta name="theme-color" content="#111820">
+<title>RAJ BUILDERS | Building Dreams, Delivering Quality</title>
+<style>
+:root{--ink:#101820;--ink2:#17232d;--gold:#e7a83e;--cream:#f7f3eb;--muted:#b9c1c8;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(16,24,32,.96);backdrop-filter:blur(12px);border-bottom:1px solid #ffffff18}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px;color:#fff}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900;letter-spacing:.08em}.mark{width:45px;height:45px;border:1px solid var(--gold);display:grid;place-items:center;color:var(--gold);font-weight:1000;font-size:19px;clip-path:polygon(50% 0,100% 22%,100% 78%,50% 100%,0 78%,0 22%)}
+.brand small{display:block;font-size:9px;letter-spacing:.16em;color:#c5cbd0;font-weight:600}
+nav{display:flex;gap:25px;font-size:13px;color:#e2e5e8}nav a:hover{color:var(--gold)}
+.menu{display:none;background:none;border:1px solid #ffffff55;color:white;padding:8px 12px;border-radius:8px}
+.hero{background:radial-gradient(ellipse at 78% 45%,#76501e 0,#29323a 26%,#101820 67%);color:#fff;overflow:hidden;position:relative}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#101820 0%,#101820df 42%,transparent 100%);pointer-events:none}
+.hero-grid{min-height:610px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:30px;position:relative;z-index:1;padding:72px 0}
+.eyebrow{color:var(--gold);font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase}
+h1{font-size:clamp(42px,6vw,76px);line-height:1.02;letter-spacing:-.045em;margin:18px 0 22px;max-width:700px}
+h1 span{color:var(--gold)}.lead{font-size:17px;color:#d4dbe0;max-width:570px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:5px;font-weight:800;font-size:13px;letter-spacing:.03em}
+.primary{background:var(--gold);color:#171b1e}.outline{border:1px solid #ffffff80;color:#fff}
+.hero-art{height:430px;position:relative;display:flex;align-items:center;justify-content:center}
+.tower{position:absolute;bottom:0;width:70%;height:78%;border:2px solid #d7a14c88;background:linear-gradient(145deg,#f1c87922,#10182055);clip-path:polygon(18% 0,82% 0,100% 100%,0 100%);box-shadow:0 0 70px #e7a83e22}
+.tower:before{content:"";position:absolute;inset:12% 12% 0;background:repeating-linear-gradient(90deg,transparent 0 13%,#e7b65c99 13.5% 14.5%,transparent 15% 25%),repeating-linear-gradient(0deg,transparent 0 13%,#e7b65c88 13.5% 14.5%,transparent 15% 25%)}
+.sun{position:absolute;width:220px;height:220px;border-radius:50%;top:28px;right:12%;background:radial-gradient(circle,#fff6cf 0,#f5bd52 12%,#e28b25 28%,#e28b2500 70%);filter:blur(1px)}
+.art-label{position:absolute;bottom:22px;left:0;background:#101820dd;border-left:3px solid var(--gold);padding:13px 18px;font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.stats{background:#fff;box-shadow:0 10px 35px #10182010;position:relative;margin-top:-1px}
+.statgrid{display:grid;grid-template-columns:repeat(3,1fr);padding:25px 0;text-align:center}
+.statgrid strong{display:block;font-size:20px;color:#a56b16}.statgrid span{font-size:12px;color:#68737c}
+section{padding:82px 0}.section-head{max-width:650px;margin-bottom:35px}.section-head h2{font-size:clamp(30px,4vw,44px);line-height:1.1;margin:9px 0 12px;letter-spacing:-.035em}.section-head p{color:#65717a;margin:0}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.service{background:#fff;padding:26px;border:1px solid #e8e2d7;min-height:205px;transition:.2s}.service:hover{transform:translateY(-4px);box-shadow:0 14px 30px #10182012;border-color:#d5a34b}
+.ico{width:43px;height:43px;display:grid;place-items:center;background:#fff4df;color:#9d6717;font-size:22px;border-radius:50%;margin-bottom:18px}
+.service h3{margin:0 0 8px;font-size:18px}.service p{margin:0;color:#69747c;font-size:13px}
+.dark{background:var(--ink);color:#fff}.dark .section-head p{color:#b7c0c7}
+.projects{display:grid;grid-template-columns:1.2fr .8fr .8fr;gap:16px}
+.project{min-height:260px;padding:22px;display:flex;align-items:end;position:relative;overflow:hidden;background:linear-gradient(145deg,#3e5965,#14212a 65%);border:1px solid #ffffff20}
+.project:nth-child(2){background:linear-gradient(145deg,#9b7950,#26313a 70%)}.project:nth-child(3){background:linear-gradient(145deg,#667a80,#18242c 70%)}
+.project:before{content:"";position:absolute;width:70%;height:75%;right:-5%;top:10%;border:2px solid #edbf6d88;transform:skewY(-8deg);box-shadow:inset 0 0 0 14px #ffffff08}
+.project:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#101820dd,transparent 75%)}
+.project div{position:relative;z-index:1}.project small{color:#f3c56e;text-transform:uppercase;letter-spacing:.16em;font-size:10px}.project h3{margin:5px 0 0;font-size:21px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.about-panel{background:var(--ink);color:#fff;padding:38px;position:relative}.about-panel:before{content:"RB";font-size:120px;line-height:1;color:#ffffff0b;font-weight:1000;position:absolute;right:20px;bottom:0}
+.about-panel h3{font-size:28px;line-height:1.2;margin:0 0 14px;position:relative}.about-panel p{color:#c1c9cf;position:relative}
+.checks{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:22px}.checks span{font-size:13px;font-weight:700}.checks span:before{content:"✓";color:#b87a1e;margin-right:8px}
+.contact{background:linear-gradient(120deg,#17232d,#101820);color:white}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.contact h2{font-size:clamp(32px,4vw,48px);line-height:1.1;margin:10px 0 15px}.contact p{color:#c1c9cf}
+.contact-card{border:1px solid #ffffff30;padding:28px;background:#ffffff08}.contact-row{padding:13px 0;border-bottom:1px solid #ffffff20}.contact-row:last-child{border:0}.contact-row small{display:block;color:#aeb9c1;font-size:10px;letter-spacing:.15em;text-transform:uppercase}.contact-row strong{font-size:18px}
+footer{background:#0b1116;color:#aeb7be;padding:24px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.float{position:fixed;right:20px;bottom:20px;z-index:30;background:#1da85a;color:white;padding:13px 18px;border-radius:40px;font-weight:900;box-shadow:0 8px 25px #0003;font-size:13px}
+@media(max-width:800px){nav{display:none;position:absolute;top:76px;left:0;right:0;background:#101820;padding:20px;flex-direction:column}.menu{display:block}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-grid{padding:65px 0 35px}.hero-art{height:300px}.services{grid-template-columns:1fr 1fr}.projects{grid-template-columns:1fr}.project{min-height:210px}.statgrid{gap:8px}.statgrid strong{font-size:17px}}
+@media(max-width:520px){.services{grid-template-columns:1fr}.statgrid{grid-template-columns:1fr;gap:14px}.statgrid div{border-bottom:1px solid #eee;padding-bottom:10px}.statgrid div:last-child{border:0}.hero-art{height:250px}.about-panel{padding:27px}.checks{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#home"><span class="mark">RB</span><span>RAJ BUILDERS<small>BUILDING DREAMS, DELIVERING QUALITY</small></span></a>
+<button class="menu" onclick="document.querySelector('nav').style.display=document.querySelector('nav').style.display==='flex'?'none':'flex'">MENU</button>
+<nav><a href="#home">Home</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><div class="eyebrow">Puducherry · Construction & Design</div><h1>Building your vision.<br><span>Creating lasting</span> value.</h1>
+<p class="lead">From thoughtful architectural planning to quality construction, RAJ BUILDERS helps bring residential and commercial spaces to life.</p>
+<div class="actions"><a class="btn primary" href="#contact">DISCUSS YOUR PROJECT</a><a class="btn outline" href="#services">EXPLORE SERVICES</a></div></div>
+<div class="hero-art" aria-label="Abstract architectural building illustration"><div class="sun"></div><div class="tower"></div><div class="art-label">Designed with purpose · Built with care</div></div>
+</div></section>
+<div class="stats"><div class="wrap statgrid"><div><strong>RESIDENTIAL</strong><span>Homes made for living</span></div><div><strong>COMMERCIAL</strong><span>Spaces made for business</span></div><div><strong>END-TO-END</strong><span>Planning to finishing</span></div></div></div>
+<section id="services"><div class="wrap"><div class="section-head"><div class="eyebrow">What we do</div><h2>Construction solutions, all in one place.</h2><p>Practical planning, clear communication and careful execution for every stage of your project.</p></div>
+<div class="services">
+<article class="service"><div class="ico">⌂</div><h3>Residential Buildings</h3><p>Individual houses, villas and custom homes designed around your needs.</p></article>
+<article class="service"><div class="ico">▥</div><h3>Commercial Buildings</h3><p>Shops, offices and business spaces planned for function and durability.</p></article>
+<article class="service"><div class="ico">⌗</div><h3>Architectural Design</h3><p>Space planning, elevations and design coordination for your project.</p></article>
+<article class="service"><div class="ico">⚒</div><h3>Construction & Contracting</h3><p>Construction execution with attention to quality and project requirements.</p></article>
+<article class="service"><div class="ico">↗</div><h3>Renovation & Remodeling</h3><p>Refresh, improve and rework existing spaces to suit changing needs.</p></article>
+<article class="service"><div class="ico">▤</div><h3>Interior Works</h3><p>Interior finishing and functional spaces with a clean, considered look.</p></article>
+</div></div></section>
+<section class="dark" id="projects"><div class="wrap"><div class="section-head"><div class="eyebrow">Our work</div><h2>Made for the way you live and work.</h2><p>A preview of the project categories we undertake. Add your completed project photographs here to make this gallery your own.</p></div>
+<div class="projects"><article class="project"><div><small>Homes</small><h3>Residential Projects</h3></div></article><article class="project"><div><small>Business spaces</small><h3>Commercial Projects</h3></div></article><article class="project"><div><small>Transformations</small><h3>Renovation & Interiors</h3></div></article></div></div></section>
+<section id="about"><div class="wrap about-grid"><div><div class="eyebrow">About RAJ BUILDERS</div><div class="section-head"><h2>Strong foundations. Thoughtful spaces.</h2><p>RAJ BUILDERS is a Puducherry-based construction and building-services brand focused on turning ideas into well-planned spaces. We value clear communication, practical design and quality-minded work.</p></div><a class="btn primary" href="#contact">LET'S TALK ABOUT YOUR PROJECT</a></div>
+<div class="about-panel"><h3>Building dreams.<br>Delivering quality.</h3><p>Whether you are planning a new home, a commercial space or an upgrade to an existing property, start with a conversation about your requirements.</p><div class="checks"><span>Residential construction</span><span>Commercial projects</span><span>Architectural planning</span><span>Renovation & interiors</span></div></div></div></section>
+<section class="contact" id="contact"><div class="wrap contact-grid"><div><div class="eyebrow">Start your project</div><h2>Have a plan in mind?<br>Let's build it.</h2><p>Contact RAJ BUILDERS, Puducherry, to discuss your construction or design requirements.</p><a class="btn primary" href="https://wa.me/918526774406?text=Hello%20RAJ%20BUILDERS%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener">MESSAGE US ON WHATSAPP</a></div>
+<div class="contact-card"><div class="contact-row"><small>Company</small><strong>RAJ BUILDERS</strong></div><div class="contact-row"><small>Location</small><strong>Puducherry, India</strong></div><div class="contact-row"><small>Call / WhatsApp</small><strong><a href="tel:+918526774406">+91 85267 74406</a></strong></div><div class="contact-row"><small>Tagline</small><strong>Building Dreams, Delivering Quality</strong></div></div></div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> RAJ BUILDERS. All rights reserved.</span><span>Puducherry, India · Building Dreams, Delivering Quality</span></div></footer>
+<a class="float" href="https://wa.me/918526774406?text=Hello%20RAJ%20BUILDERS" target="_blank" rel="noopener">WhatsApp ↗</a>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
